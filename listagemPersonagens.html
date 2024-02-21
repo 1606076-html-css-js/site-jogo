@@ -40,15 +40,42 @@
 
     <div>
         <h2>Formulário de Cadastro de Jogador</h2>
-        <form action="https://api-aula.up.railway.app/jogadores" method="POST">
-            <input type="text" name="nome" placeholder="Nome" required>
-            <input type="text" name="idade"  placeholder="Idade" required>
-            <button type="submit">Cadastrar</button>
+        <form action="https://api-aula.up.railway.app/jogadores" method="GET">
+            <button type="submit">Buscar</button>
         </form>
 
-        <div style="background-color: green;">
-            SUCESSO FOI CADASTRADO!
-        </div>
+    </div>
+
+
+    <div>
+        <h2>Jogadores</h2>
+        <!-- com style no table de borda -->
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sabino</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td>Sabino</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td>Sabino</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td>Sabino</td>
+                    <td>31</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 
